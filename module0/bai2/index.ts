@@ -4,67 +4,34 @@ class Vehicle {
     private cost: number;
     private cylinder: number;
 
-    /**
-     * Getter $owner
-     * @return {string}
-     */
-	public get $owner(): string {
+	public getOwner(): string {
 		return this.owner;
 	}
-
-    /**
-     * Getter $type
-     * @return {string}
-     */
-	public get $type(): string {
+	public getType(): string {
 		return this.type;
 	}
-
-    /**
-     * Getter $cost
-     * @return {number}
-     */
-	public get $cost(): number {
+	
+	public getCost(): number {
 		return this.cost;
 	}
-
-    /**
-     * Getter $cylinder
-     * @return {number}
-     */
-	public get $cylinder(): number {
+	
+	public getCylinder(): number {
 		return this.cylinder;
 	}
 
-    /**
-     * Setter $owner
-     * @param {string} value
-     */
-	public set $owner(value: string) {
+	public setOwner(value: string) {
 		this.owner = value;
 	}
 
-    /**
-     * Setter $type
-     * @param {string} value
-     */
-	public set $type(value: string) {
+	public setType(value: string) {
 		this.type = value;
 	}
 
-    /**
-     * Setter $cost
-     * @param {number} value
-     */
-	public set $cost(value: number) {
+	public setCost(value: number) {
 		this.cost = value;
 	}
-
-    /**
-     * Setter $cylinder
-     * @param {number} value
-     */
-	public set $cylinder(value: number) {
+	
+	public setCylinder(value: number) {
 		this.cylinder = value;
 	}
 
