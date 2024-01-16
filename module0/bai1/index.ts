@@ -3,56 +3,32 @@ class Triangle {
     private mb: number;
     private mc: number;
 
-    /**
-     * Getter $ma
-     * @return {number}
-     */
-	public get $ma(): number {
-		return this.ma;
-	}
+    public getMa(): number {
+	return this.ma;
+    }
 
-    /**
-     * Getter $mb
-     * @return {number}
-     */
-    public get $mb(): number {
-		return this.mb;
-	}
+    public getMb(): number {
+	return this.mb;
+    }
 
-    /**
-     * Getter $mc
-     * @return {number}
-     */
-	public get $mc(): number {
-		return this.mc;
-	}
+    public getMc(): number {
+	return this.mc;
+    }
 
-    /**
-     * Setter $ma
-     * @param {number} value
-     */
-    public set $ma(value: number) {
+    public setMa(value: number) {
         if (value > 0)
-		    this.ma = value;
-	}
+	    this.ma = value;
+    }
 
-    /**
-     * Setter $mb
-     * @param {number} value
-     */
-	public set $mb(value: number) {
+    public setMb(value: number) {
         if (value > 0)
-		    this.mb = value;
-	}
+	    this.mb = value;
+    }
 
-    /**
-     * Setter $mc
-     * @param {number} value
-     */
-	public set $mc(value: number) {
+    public setMc(value: number) {
         if (value > 0)
-		    this.mc = value;
-	}
+	    this.mc = value;
+    }
     
     constructor(ma: number, mb: number, mc: number) {
         if (
